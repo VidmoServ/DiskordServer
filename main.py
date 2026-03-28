@@ -36,7 +36,6 @@ class MyBot(commands.Bot):
         print("------")
         print("Bot jest gotowy do pracy!")
         print("Śmieszek Załadowany!")
-
 bot = MyBot()
 if __name__ == "__main__":
     bot.run(TOKEN)
